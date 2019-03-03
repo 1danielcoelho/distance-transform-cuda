@@ -1,0 +1,7 @@
+/.vs/*
+/bin/*
+*.sln
+*.vcxproj
+*.dat
+*.pdb
+x64/*
