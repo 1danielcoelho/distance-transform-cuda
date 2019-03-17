@@ -1,7 +1,7 @@
 # distance-transform-cuda
 CUDA implementation of Meijster's parallel algorithm for calculating the distance transform of a 2D image
 
-![input](https://raw.githubusercontent.com/1danielcoelho/raytracing-rust/master/input.png) ![output](https://raw.githubusercontent.com/1danielcoelho/raytracing-rust/master/output.png)
+![input](https://raw.githubusercontent.com/1danielcoelho/distance-transform-cuda/master/input.png) ![output](https://raw.githubusercontent.com/1danielcoelho/distance-transform-cuda/master/output.png)
 
 Uses CUDA v9.1.
 
