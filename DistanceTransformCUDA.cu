@@ -13,9 +13,6 @@
 #include <algorithm>
 #include <cuda_profiler_api.h>
 
-#define MAX_THREADS_PER_BLOCK 1024
-#define THREADS_PER_BLOCK_DIM 32
-
 using namespace std;
 
 typedef unsigned char uchar;
@@ -152,7 +149,7 @@ void runCUDA(T* h_inData, T* h_outData, uint width, uint height)
 
 int main(int argc, char **argv)
 {
-	cout << "Starting" << endl;
+	printf("Starting\n");
 	
 	uint width = 256;
 	uint height = 256;
